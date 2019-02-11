@@ -12,7 +12,8 @@ python@2`
 - **numpy** - pip install numpy (for the outcome parser)
 
 # Instruction
-
+## Install required packages
+    npm install
 ## Generate random users
     ./message_listener/lib/generate-users.sh <usercount>
 generates two files, user_insert_script.js for inserting into mongo and userdata.js to have the usernames in the script - every testuser has the PW:test123
@@ -20,9 +21,9 @@ generates two files, user_insert_script.js for inserting into mongo and userdata
 ## Import Users
 Execute newly generated script to import the users on the mongodb shell - 
     
-     mongo <serverurl>/<database> user_insert_script.js
+    mongo <serverurl>/<database> user_insert_script.js
 
-    Example mongo 127.0.0.1/meteor ./message_listener/lib/user_insert_script.js)
+    Example: mongo 127.0.0.1/meteor ./message_listener/lib/user_insert_script.js
 
 # Execute the test
 Execute the message listener testcase with the following instructions:
