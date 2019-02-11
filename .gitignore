@@ -1,0 +1,14 @@
+#node_modules
+#package-lock.json
+node_modules/
+docker-compose.yml
+.vscode/
+package-lock.json
+**/outcom*
+**/output*
+**/nohup.out
+**/logs
+
+#IntelliJ
+*.iml
+**.idea/

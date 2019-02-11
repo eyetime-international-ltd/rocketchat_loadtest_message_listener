@@ -1,0 +1,13 @@
+{
+  "name": "rocketchat_module",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@rocket.chat/sdk": "^0.2.9",
+    "options-parser": "^0.4.0"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
